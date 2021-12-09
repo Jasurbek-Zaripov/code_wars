@@ -1,0 +1,97 @@
+* {
+  user-select: none;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 600;
+  font-size: 100% !important;
+  border-radius: 5px;
+  box-sizing: border-box;
+  outline: none;
+  white-space: pre-wrap;
+  color: rgb(186, 195, 204);
+}
+body {
+  font-size: medium;
+  background-color: #000;
+}
+.container {
+  width: 96%;
+  margin: 2% auto;
+  padding: 2%;
+  background-color: rgb(30, 30, 30);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left {
+  width: 40%;
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 0 5px 2px black;
+}
+#masala {
+  background: transparent;
+  margin-bottom: 3%;
+}
+#dashboard {
+  resize: vertical;
+  min-height: 235px;
+  width: 100%;
+  background-color: transparent;
+  color: aquamarine;
+}
+button {
+  padding: 1%;
+  background: transparent;
+  border: 1px solid red;
+  display: inline-block;
+  width: 30%;
+}
+button:active {
+  border: 2px dotted red;
+}
+.left > .up {
+  width: 100%;
+  min-height: 235px;
+  padding: 2%;
+  margin: 3%;
+  box-shadow: 0 0 5px 2px black;
+}
+.left > .down {
+  min-height: 100px;
+  width: 100%;
+  padding: 2%;
+  margin: 2%;
+  box-shadow: 0 0 5px 2px black;
+}
+
+.right {
+  width: 58%;
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 0 5px 2px black;
+}
+.right > .up {
+  min-height: 250px;
+  padding: 2%;
+  width: 100%;
+  margin: 3%;
+  box-shadow: 0 0 5px 2px black;
+}
+.right > .down {
+  min-height: 100px;
+  width: 100%;
+  padding: 2%;
+  margin: 2%;
+  box-shadow: 0 0 5px 2px black;
+}
